@@ -48,10 +48,11 @@ public:
                 
                 result_index.push_back(hashmap.at(another_value));
                 result_index.push_back(i);
-                // cout << result_index[0] << " " << result_index[1] << endl;
+                cout << result_index[0] << " " << result_index[1] << endl;
                 break;
             }
-            hashmap[value] = i;
+            //windows下面用mingw最好用insert和at，不要用hashmap[]，这个方法如果有会返回，如果没有就插入或赋值0
+            hashmap.insert({value, i});
         }
         return result_index;
     }

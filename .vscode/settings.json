@@ -25,6 +25,7 @@
     "files.associations": {
         "map": "cpp",
         "xtree": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     }, // 同上 
 }
