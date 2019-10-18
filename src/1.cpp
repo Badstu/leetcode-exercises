@@ -21,11 +21,9 @@ public:
         {
             for(int j = i + 1; j < nums.size(); j++){
                 temp_sum = nums[i] + nums[j];
-                // cout << i << " " << j << endl;
                 if (temp_sum == target){
                     result_index.push_back(i);
                     result_index.push_back(j);
-                    // cout << i << j;
                     ox = 1;
                     break;
                 }
@@ -41,25 +39,20 @@ public:
 class Solution2{
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        map<char, int> hashmap;
-        hashmap['a'] = 1;
+        map<int, int> hashmap;
         vector<int> result_index;
-        // for(int i = 0; i < nums.size(); i++){
-        //     int value = nums[i];
-        //     if (value > target){
-        //         continue;
-        //     } else {
-        //         int another_value = target - value;
-        //         // cout << another_value << endl;
-        //         if (hashmap.find(another_value) != hashmap.end()){
-        //             result_index.push_back(hashmap[another_value]);
-        //             result_index.push_back(i);
-        //             cout << hashmap[another_value] << " " << i << endl;
-        //             break;
-        //         }
-        //     }
-        //     hashmap[value] = i;
-        // }
+        for(int i = 0; i < nums.size(); i++){
+            int value = nums[i];
+            int another_value = target - value;
+            if (hashmap.find(another_value) != hashmap.end()){
+                
+                result_index.push_back(hashmap.at(another_value));
+                result_index.push_back(i);
+                // cout << result_index[0] << " " << result_index[1] << endl;
+                break;
+            }
+            hashmap[value] = i;
+        }
         return result_index;
     }
 };

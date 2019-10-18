@@ -21,5 +21,10 @@
     "C_Cpp.errorSquiggles": "Disabled", // 因为有clang的lint，所以关掉；如果你看的是别的答主用的不是vscode-clangd，就不要加这个了
     "C_Cpp.autocomplete": "Disabled", // 同上；这几条也可以考虑放到全局里，否则很多错误会报两遍，cpptools一遍clangd一遍
     "C_Cpp.suggestSnippets": false,
-    "python.pythonPath": "C:\\ProgramData\\Miniconda3\\python.exe", // 同上 
+    "python.pythonPath": "E:\\Anaconda3\\python.exe",
+    "files.associations": {
+        "map": "cpp",
+        "xtree": "cpp",
+        "iostream": "cpp"
+    }, // 同上 
 }
