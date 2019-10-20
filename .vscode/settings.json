@@ -26,6 +26,8 @@
         "map": "cpp",
         "xtree": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iterator": "cpp"
     }, // 同上 
 }
