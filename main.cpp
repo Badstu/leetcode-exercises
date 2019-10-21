@@ -1,8 +1,9 @@
-#include "src/3.无重复字符的最长子串.cpp"
+#include "src/3.cpp"
 
 int main(){
     Solution su = Solution();
-    string s = "abcabc";
+    string s = "aab";
     int length = su.lengthOfLongestSubstring(s);
-    cout << length;
+    // cout << length;
+    cout << s[-1];
 }
