@@ -15,35 +15,20 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         map<char, int> hashmap;
-        int length = 0, max_length = 0;
+        int max_length = 0;
         int start = 0, end = 0;
-        bool isContinue = false;
+        hashmap[s[start]] = 1;
 
-        for (int i = 0; i < s.length(); i++)
-        {
-            char c = s[i];
-            if (c == s[i-1]){
-                isContinue = true;
-
+        while(s[end] != 0){
+            max_length = max_length > (end - start + 1) ? max_length : (end - start + 1);
+            ++end;
+            // cout << end << " " << s[end] << " " << hashmap[s[end]] << endl;
+            while(0 != hashmap[s[end]]){
+                hashmap[s[start]] = 0;
+                ++start;
             }
-            cout << i << c << hashmap[c] << endl;
-            if(hashmap[c] != 0){
-                // i = start++;
-                // end = start + 1;
-                hashmap[c] = 0;
-            } else {
-                end++;
-                hashmap[c]++;
-            }
-            cout << start << " " << end << endl;
-            
-            length = end - start;
-            if (length > max_length) {
-                max_length = length;
-            }
+            hashmap[s[end]] = 1;
         }
-        cout << max_length;
-
         return max_length;
     }
 };

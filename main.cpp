@@ -2,8 +2,6 @@
 
 int main(){
     Solution su = Solution();
-    string s = "aab";
+    string s = "abcabcbb";
     int length = su.lengthOfLongestSubstring(s);
-    // cout << length;
-    cout << s[-1];
 }
