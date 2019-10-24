@@ -1,7 +1,8 @@
-#include "src/3.cpp"
+#include "src/5.cpp"
 
 int main(){
     Solution su = Solution();
-    string s = "abcabcbb";
-    int length = su.lengthOfLongestSubstring(s);
+    string s = "babad";
+    string result = su.longestPalindrome(s);
+    cout << result;
 }
