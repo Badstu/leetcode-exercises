@@ -2,7 +2,7 @@
 
 int main(){
     Solution su = Solution();
-    string s = "babad";
+    string s = "abcda";
     string result = su.longestPalindrome(s);
     cout << result;
 }
