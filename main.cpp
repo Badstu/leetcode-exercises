@@ -1,8 +1,8 @@
-#include "src/5.cpp"
+#include "src/6.cpp"
 
 int main(){
     Solution su = Solution();
-    string s = "abcda";
-    string result = su.longestPalindrome(s);
+    string s = "pmlirnjvgaedetokjcljsnaqzrzuacbpqnxjciekllnpedbpfoyyczqdspxstbkjqjtsuzcfkrwrxygcmfaqgttyitteudnkmgegginsbkjyksbyxdrfwkfhfylzbalqjpyrxmjzyvxknyimezramyjrxwtaxesgurxtfiudfspssxgwzzzlykevhxxgeqmahltovorbiivcfczgdatbkaytxwzdondvazjwpczxkwzraaaecthnvggteiysvcpwdausevrqrsjstjwxffkaltvrbulyyaudcqvglowdggxbpvzwalxogufhotioteryvoeicbnljkoahnxibwwhqdrhwzxsfpqadujixytijjjqziaaewjwccfyddqjuijzduhctclemwwlexnkvwizzoyctqlnzxoetyioavsorrbvoqflpqlqgluzdgoefckaatpdohtgaxdqnlcebpuhapgfxwkcaucbnrgebbmdypuoaysdnnkpesuboedrbhuqbauedghcydsabmeoboffjcgzglqjvkawmucqdlubpmbqyfhcwmhfoogxzxguhiswdwmiigjzumpuuywsnezd";
+    string result = su.convert(s, 479);
     cout << result;
 }

@@ -28,6 +28,10 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "vector": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
     }, // 同上 
 }
