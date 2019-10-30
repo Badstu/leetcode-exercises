@@ -32,6 +32,9 @@
         "initializer_list": "cpp",
         "type_traits": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "memory": "cpp",
+        "limits": "cpp"
     }, // 同上 
 }
