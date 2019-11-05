@@ -17,11 +17,11 @@ public:
         vector<vector<int>> result;
 
         sort(nums.begin(), nums.end());
-        for(vector<int>::iterator it = nums.begin(); it != nums.end(); it++){
-            cout << *it << " ";
-        }
-        cout << endl;
-        cout << "success" << endl;
+        // for(vector<int>::iterator it = nums.begin(); it != nums.end(); it++){
+        //     cout << *it << " ";
+        // }
+        // cout << endl;
+        // cout << "success" << endl;
 
         for(int i = 0; i < nums.size(); i++){
             if(nums[i] > 0) break;
@@ -44,15 +44,15 @@ public:
             }
             
         }
-        cout << "=============" << endl;
-        if(result.size() != 0){
-            for(int i = 0; i < result.size(); i++){
-                for(int j = 0; j < result[0].size(); j++){
-                    cout << result[i][j] << " ";
-                }
-                cout << endl;
-            }
-        }
+        // cout << "=============" << endl;
+        // if(result.size() != 0){
+        //     for(int i = 0; i < result.size(); i++){
+        //         for(int j = 0; j < result[0].size(); j++){
+        //             cout << result[i][j] << " ";
+        //         }
+        //         cout << endl;
+        //     }
+        // }
 
 
         return result;
