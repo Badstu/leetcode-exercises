@@ -1,8 +1,9 @@
-#include "src/11.cpp"
+#include "src/15.cpp"
 
 int main(){
     Solution su = Solution();
-    vector<int> a = {1,8,6,2,5,4,8,3,7};
-    int area = su.maxArea(a);
-    cout << area;
+    vector<int> nums = {-1,0,1,2,-1,-4};
+    vector<vector<int>> result = su.threeSum(nums);
+    
+    // cout << (3 < 4-1);
 }
