@@ -1,0 +1,25 @@
+DIR_INC = ./include
+DIR_SRC = ./src
+DIR_OBJ = ./obj
+DIR_BIN = ./bin
+
+SRC = $(wildcard ${DIR_SRC}/*.cpp)
+OBJ = $(patsubst %.cpp,${DIR_OBJ}/%.o,$(notdir ${SRC})) 
+BIN_TARGET = $(patsubst %.cpp,${DIR_BIN}/%.exe,$(notdir ${SRC}))
+
+
+# TARGET = main
+# BIN_TARGET = ${DIR_BIN}/${TARGET}
+
+CC = g++
+# CFLAGS = -g -Wall -I${DIR_INC}
+
+${DIR_BIN}/%.exe: ${DIR_OBJ}/%.o
+	g++ $^ -o $@
+    
+${DIR_OBJ}/%.o: ${DIR_SRC}/%.cpp
+	$(CC) -c $< -o $@
+
+# .PHONY:clean
+# clean:
+# 	for /r ${DIR_OBJ} %i in (*.o) do del %i

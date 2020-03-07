@@ -1,11 +1,13 @@
-#include "src/16.cpp"
+#include <iostream>
+
+using namespace std;
 
 int main(){
-    Solution su = Solution();
-    vector<int> nums = {-1, 2, 1, -4};
-    int target = 1;
-    int res = su.threeSumClosest(nums, target);
-    cout << res;
-
-    // cout << (3 < 4-1);
+    for(int i = 0; i < 10; i++){
+        for(int j = 0; j < 10; j++)
+            cout << "* ";
+            
+        cout << endl;
+    }
+    return 0;
 }
