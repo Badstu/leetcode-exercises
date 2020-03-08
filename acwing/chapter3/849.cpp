@@ -1,13 +1,3 @@
-/*
-输入样例：
-3 3
-1 2 2
-2 3 1
-1 3 4
-输出样例：
-3
-*/
-
 #include <iostream>
 #include <cstring>
 using namespace std;
