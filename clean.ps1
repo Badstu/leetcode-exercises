@@ -1,0 +1,1 @@
+ls acwing -i *.exe -r | rm
