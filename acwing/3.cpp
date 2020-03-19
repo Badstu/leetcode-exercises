@@ -6,11 +6,11 @@ using namespace std;
 typedef long long LL;
 
 const int N = 110;
-int f[N][N][N];
+const int M = 10000;
+int f[N][N][M];
 int t[N];
 int n, k, m;
 int st[N];
-
 
 void cout_matrix(){
     for(int i = 0; i <= n; i++){
