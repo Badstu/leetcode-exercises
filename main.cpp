@@ -1,15 +1,21 @@
-// 默写快速幂
-
 #include<iostream>
 
 using namespace std;
 
-int qmi(int a, int k, int p){
-    int res = 1;
-    while(k){
-        if(k & 1) res = (LL) res * a % p;
-        k >>= 1;
-        a = (LL) a * a % p;
+const int N = 20010;
+int a[N], b[N];
+
+int main(){
+    int n;
+    cin >> n;
+    for(int i = 0; i < n; i++){
+        cin >> a[i];
     }
-    return res;
+    for(int i = 0; i < n; i++){
+        cin >> b[i];
+    }
+
+    
+
+    return 0;
 }
