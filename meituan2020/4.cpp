@@ -17,7 +17,7 @@ void add(int a, int b, int weight){
 
 
 int main(){
-    int n, m, s;
+    int n, m, s, d;
     cin >> n >> m >> s;
 
     memset(h, -1, sizeof h);
@@ -28,6 +28,7 @@ int main(){
         add(u, v, c);
         add(v, u, c);
     }
+    cin >> d;
 
     dist[s] = 0;
     for(int i = 0; i < n - 1; i++){
@@ -47,9 +48,9 @@ int main(){
         st[t] = true;
     }
     
+    int res = 0;
     for(int i = 1; i <= n; i++){
-        if(dist[i] > ){
-
-        }
+        if(dist[i] == d)
+            res++;
     }
 }
