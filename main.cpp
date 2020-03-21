@@ -7,6 +7,7 @@ typedef long long LL;
 const int N = 20010;
 int a[N], b[N];
 
+
 int main(){
     int n;
     cin >> n;
