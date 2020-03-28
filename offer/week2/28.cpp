@@ -13,6 +13,9 @@ using namespace std;
 class Solution {
 public:
     void deleteNode(ListNode* node) {
+        auto n = node->next;
+        node->val = n->val;
+        node->next = n->next;
         
     }
 };
