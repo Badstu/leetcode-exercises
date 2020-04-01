@@ -34,6 +34,7 @@ public:
 
         if(!p -> left && !p -> right && !sum){
             path.push_back(temp);
+            //这两步不用管，因为空节点在下一步会判掉
             temp.pop_back();
             return;
         }
