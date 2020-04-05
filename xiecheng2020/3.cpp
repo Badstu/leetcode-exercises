@@ -22,8 +22,6 @@ PII range[N];
 //     // }
 // }range[N];
 
-
-
 int main(){
     int n;
     cin >> n;
