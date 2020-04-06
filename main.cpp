@@ -9,15 +9,9 @@ int a[12];
 
 
 int main(){
-    string s;
-    cin >> s;
-    for(int i = 1; i < 10; i++){
-        cin >> a[i];
-    }
-
-    for(int i = 0; i < s.size(); i ++){
-        cout << a[s[i] - '0'];
-    }
+    int a;
+    a = 2;
+    cout << ~a << endl;
 
     return 0;
 }
