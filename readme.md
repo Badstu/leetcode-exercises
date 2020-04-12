@@ -1,6 +1,6 @@
 This is sayhi's leetcode-exercises repositories💻🎈🥇
 
-If you have any suggestion about this repositories, please feel free to contact [me](zqws1018@gmail.com)💬, or just add a new issue here~
+If you have any suggestion about this repositories, please feel free to contact [me](mailto:zqws1018@gmail.com)💬, or just add a new issue here~
 
 
 ## solution analysis conclusion
