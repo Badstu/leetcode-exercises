@@ -16,4 +16,9 @@ solution analysis look at this -> [solution analysis](./tijie)
 3：1410. HTML 实体解析器\
 4：5383. 给 N x 3 网格图涂色的方案数
 
+**4.13**
+每日一题：355. 设计推特
+
+**4.14**
+[每日一题：445. 两数相加II](./tijie/445_两数相加II.md)
 
