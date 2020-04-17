@@ -43,3 +43,14 @@ solution analysis look at this -> [solution analysis](./tijie)
 
 **4.16**
 每日一题：56. 合并区间
+0026.remove-duplicates-from-sorted-array
+0053.maximum-sum-subarray
+0088.merge-sorted-array
+0104.maximum-depth-of-binary-tree
+0121.best-time-to-buy-and-sell-stock
+
+**4.17**
+每日一题：55. 跳跃游戏
+42.接雨水
+407.接雨水II（没写出来）
+
