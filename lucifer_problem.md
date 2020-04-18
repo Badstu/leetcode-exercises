@@ -13,11 +13,11 @@
 - [x] [0088.merge-sorted-array](./problems/88.merge-sorted-array.md)
 - [x] [0104.maximum-depth-of-binary-tree](./problems/104.maximum-depth-of-binary-tree.md)
 - [x] [0121.best-time-to-buy-and-sell-stock](./problems/121.best-time-to-buy-and-sell-stock.md)
-- [ ] [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
-- [ ] [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
-- [ ] [0136.single-number](./problems/136.single-number.md)
-- [ ] [0155.min-stack](./problems/155.min-stack.md) 🆕
-- [ ] [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
+- [x] [0122.best-time-to-buy-and-sell-stock-ii](./problems/122.best-time-to-buy-and-sell-stock-ii.md)
+- [x] [0125.valid-palindrome](./problems/125.valid-palindrome.md) 🆕
+- [x] [0136.single-number](./problems/136.single-number.md)
+- [x] [0155.min-stack](./problems/155.min-stack.md) 🆕
+- [x] [0167.two-sum-ii-input-array-is-sorted](./problems/167.two-sum-ii-input-array-is-sorted.md)
 - [ ] [0169.majority-element](./problems/169.majority-element.md)
 - [ ] [0172.factorial-trailing-zeroes](./problems/172.factorial-trailing-zeroes.md)
 - [ ] [0190.reverse-bits](./problems/190.reverse-bits.md)

@@ -1,44 +1,20 @@
-/*
- * @lc app=leetcode.cn id=11 lang=cpp
- *
- * [11] 盛最多水的容器
- */
-
-// @lc code=start
-#include <vector>
-#include <iostream>
-
-using namespace std;
-
 class Solution {
 public:
     int maxArea(vector<int>& height) {
-        int water = 0;
-        int i = 0, j = height.size() - 1;
+        if(height.empty()) return 0;
+        int n = height.size();
+        
+        int i = 0, j = n - 1;
+        int max_area = 0;
         while(i < j){
             int h = min(height[i], height[j]);
-            water = max(water, h * (j - i));
-            while(height[i] <= h && i < j)
+            max_area = max(max_area, (j - i) * h);
+            if(height[i] <= height[j]){
                 i++;
-            while(height[j] <= h && i < j)
+            } else{
                 j--;
+            }
         }
-        return water;
+        return max_area;
     }
 };
-// @lc code=end
-
-
-
-
-
-
-// int water = 0;
-// int i = 0, j = height.size() - 1;
-// while (i < j) {
-//     int h = min(height[i], height[j]);
-//     water = max(water, (j - i) * h);
-//     while (height[i] <= h && i < j) i++;
-//     while (height[j] <= h && i < j) j--;
-// }
-// return water;

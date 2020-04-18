@@ -5,23 +5,45 @@ using namespace std;
 typedef long long LL;
 
 const int N = 1010;
-int a[12];
+int a[N];
+int st[N];
+int n, h0;
+int nums = 0;
 
+int dfs(int i, int h0);
 
 int main(){
-    int a;
-    a = 2;
-    cout << ~a << endl;
+    cin >> n >> h0;
+    for(int i = 0; i < n; i++){
+        cin >> a[i];
+    }
 
+    nums = dfs(0, h0);
+    cout << nums;
     return 0;
+}
+
+int dfs(int i, int h0){
+    if(i == n - 1) return 1;
+    if(i >= n) return 0;
+
+    int ans = 0;
+
+    ans += dfs(i + h0, h0);
+
+    if(h0 != a[i]){
+        ans += dfs(i + a[i], a[i]);
+    }
+    return ans;
 }
 
 
 /*
-输入样例3
-73598793378342493
-1 3 6 1 6 8 9 1 3
-
-输出样例3
-96631936691613136
+样例输入
+3 10
+10 10 10
+5 1
+2 3 2 4 3
+样例输出
+4
 */

@@ -16,7 +16,7 @@ If you have any suggestion about this repositories, please feel free to contact 
 2、选择列表：也就是你当前可以做的选择。
 3、结束条件：也就是到达决策树底层，无法再做选择的条件。
 
-* 遇到子串问题，首先想到的就是滑动窗口技巧。
+* **遇到子串问题，首先想到的就是滑动窗口技巧。**
 
 
 ## solution analysis conclusion
@@ -53,4 +53,16 @@ solution analysis look at this -> [solution analysis](./tijie)
 每日一题：55. 跳跃游戏
 42.接雨水
 407.接雨水II（没写出来）
+
+**4.18**
+每日一题：11.盛最多的水 双指针
+0122.best-time-to-buy-and-sell-stock-ii 贪心
+0125.valid-palindrome 双指针
+0136.single-number 异或
+0155.min-stack 单调栈
+0167.two-sum-ii-input-array-is-sorted 双指针
+京东2020春招：
+1.股票亏损 排序+贪心+堆优化
+2.跳格子：dfs
+
 
