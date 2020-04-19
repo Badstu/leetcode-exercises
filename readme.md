@@ -65,4 +65,8 @@ solution analysis look at this -> [solution analysis](./tijie)
 1.股票亏损 排序+贪心+堆优化
 2.跳格子：dfs
 
-
+**4.19**
+kickstart 1.Bike Tour（遍历找peak）
+kickstart 2.Bus Routes（倒数遍历找最接近右边的数）
+kickstart 3.Robot Path Decoding （字符串括号匹配，用dfs样例过了，没有AC）
+每日一题：466.统计重复个数
