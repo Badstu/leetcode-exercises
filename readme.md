@@ -79,3 +79,8 @@ kickstart 3.Robot Path Decoding （字符串括号匹配，用dfs样例过了，
 
 **4.22**
 每日一题：199.二叉树的右视图
+0169.majority-element（投票法）
+0172.factorial-trailing-zeroes（把求0的个数转化为求因子中5的个数）
+0191.number-of-1-bits（lowbit操作，-x&x）
+0198.house-robber（动态规划）
+0203.remove-linked-list-elements（单向链表的删除操作，要定义dummy节点）
