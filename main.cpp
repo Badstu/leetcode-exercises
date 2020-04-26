@@ -1,29 +1,24 @@
-#include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
+
 using namespace std;
-
-typedef long long LL;
-
-const int N = 1010;
-int a[N];
-int st[N];
-int n, h0;
-int nums = 0;
 
 
 int main(){
-    int a = -11;
-    int b = 10;
-    cout << a % b; 
+    int n;
+    cin >> n;
+
+    int res = 0;
+    while(n >= 10){
+        int t = 1;
+        while(n != 0){
+            t *= n % 10;
+            n /= 10;
+        }
+        n = t;
+        res++;
+    }
+    cout << res << endl;
 }
-
-
 /*
-样例输入
-3 10
-10 10 10
-5 1
-2 3 2 4 3
-样例输出
-4
+1999999999
 */
