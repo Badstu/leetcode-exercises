@@ -84,3 +84,13 @@ kickstart 3.Robot Path Decoding （字符串括号匹配，用dfs样例过了，
 0191.number-of-1-bits（lowbit操作，-x&x）
 0198.house-robber（动态规划）
 0203.remove-linked-list-elements（单向链表的删除操作，要定义dummy节点）
+
+**05.04**
+每日一题：45.跳跃游戏II（贪心，从前往后做，一个一个跳吧）
+0219.contains-duplicate-ii（哈希表，unordered_set维护k的窗口）
+
+**05.06**
+每日一题：983. 最低票价（动态规划，两种思路：365天和旅行的次数）
+
+**05.07**
+每日一题：572.另一个树的子树（两个递归，第一个递归比较子树的根结点相不相同，相同进入第二个递归，判断子树所有元素相不相同，时间复杂度是o(s*t)）
