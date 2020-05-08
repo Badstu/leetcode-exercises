@@ -26,7 +26,7 @@
 - [x] [0203.remove-linked-list-elements](./problems/203.remove-linked-list-elements.md)
 - [x] [0206.reverse-linked-list](./problems/206.reverse-linked-list.md)
 - [x] [0219.contains-duplicate-ii](./problems/219.contains-duplicate-ii.md)
-- [ ] [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
+- [x] [0226.invert-binary-tree](./problems/226.invert-binary-tree.md)
 - [ ] [0232.implement-queue-using-stacks](./problems/232.implement-queue-using-stacks.md) 🆕
 - [ ] [0263.ugly-number](./problems/263.ugly-number.md)
 - [ ] [0283.move-zeroes](./problems/283.move-zeroes.md)
