@@ -55,7 +55,7 @@ public:
     stack<int> s1;
     stack<int> s2;
 
-    void transition(stack<int> s1, stack<int> s2){
+    void transition(stack<int> &s1, stack<int> &s2){
         while(s1.size()) {
             int t = s1.top();
             s1.pop();
