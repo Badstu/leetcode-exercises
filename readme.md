@@ -105,3 +105,6 @@ kickstart 3.Robot Path Decoding （字符串括号匹配，用dfs样例过了，
 每日一题：236.二叉树的最近公共祖先（递归，root->left, root->right）
 232.implement-queue-using-stacks
 0263.ugly-number
+
+**05.11**
+每日一题：50.快速幂（k次幂，化成二进制，每次判断最低位，不断对x平方）
