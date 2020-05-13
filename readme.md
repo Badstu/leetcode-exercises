@@ -120,3 +120,7 @@ kickstart 3.Robot Path Decoding （字符串括号匹配，用dfs样例过了，
 0575.distribute-candies
 1260.shift-2d-grid
 1332.remove-palindromic-subsequences
+
+**05.13**
+每日一题：102.二叉树的层序遍历（用队列做宽搜，宽搜过程中用NULL记录下一层的结束，上一层结束的时候下一层都被加入队列中）
+

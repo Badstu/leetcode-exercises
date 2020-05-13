@@ -24,15 +24,14 @@ public:
             if(!t){
                 res.push_back(tmp);
                 tmp.clear();
-                if(q.size()) q.push(NULL); //这步很关键
-                continue;
+                if(q.size()) q.push(NULL);
+            } else {
+                tmp.push_back(t->val);
+                if(t -> left) q.push(t -> left);
+                if(t -> right) q.push(t -> right);
             }
-
-            tmp.push_back(t -> val);
-            if(t -> left) q.push(t -> left);
-            if(t -> right) q.push(t -> right);
+            // cout << q.front() -> val << endl;
         }
-
         return res;
     }
 };
