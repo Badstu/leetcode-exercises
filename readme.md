@@ -2,7 +2,7 @@ This is sayhi's leetcode-exercises repositories💻🎈🥇
 
 If you have any suggestion about this repositories, please feel free to contact [me](mailto:zqws1018@gmail.com)💬, or just add a new issue here~
 
-## 建议（来自labuladong的算法小抄）
+## 建议
 * 如果刷题无从下手，可以从二叉树下手，前 10 道也许有点难受；结合框架再做 20 道，也许你就有点自己的理解了；刷完整个专题，再去做什么回溯动规分治专题，你就会发现只要涉及递归的问题，都是树的问题。
 
 * 其实很多动态规划问题就是在遍历一棵树，你如果对树的遍历操作烂熟于心，起码知道怎么把思路转化成代码，也知道如何提取别人解法的核心思路。
